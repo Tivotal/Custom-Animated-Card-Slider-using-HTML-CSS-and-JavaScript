@@ -7,7 +7,7 @@ next.onclick = function () {
   let cards = document.querySelectorAll(".card");
 
   document.querySelector(".slider").appendChild(cards[0]);
-  loadCards();
+
 };
 
 prev.onclick = function () {
